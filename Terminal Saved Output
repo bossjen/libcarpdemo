@@ -1,0 +1,114 @@
+Last login: Mon Dec  9 16:20:36 on ttys000
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.name "Jenny Bossaller"
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.name "Jenny Bossaller"
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+ED-BossallerJ-MBP:~ bossallerj$ git status
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+ED-BossallerJ-MBP:~ bossallerj$ which brew
+ED-BossallerJ-MBP:~ bossallerj$ xcode-select --install
+xcode-select: note: install requested for command line developer tools
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.name "Jenny Bossaller"
+ED-BossallerJ-MBP:~ bossallerj$ git status
+fatal: not a git repository (or any of the parent directories): .git
+ED-BossallerJ-MBP:~ bossallerj$ global user.email "bossallerj@missouri.edu"
+-bash: global: command not found
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.name "Jenny Bossaller"
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.name "Jenny Bossaller"
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.name "bossjen"
+ED-BossallerJ-MBP:~ bossallerj$ git config --global user.email "jenny.bossaller@gmail.com"
+ED-BossallerJ-MBP:~ bossallerj$ git status
+fatal: not a git repository (or any of the parent directories): .git
+ED-BossallerJ-MBP:~ bossallerj$ pwd
+/Users/bossallerj
+ED-BossallerJ-MBP:~ bossallerj$ mkdir libcarpdemo2019
+ED-BossallerJ-MBP:~ bossallerj$ ce
+-bash: ce: command not found
+ED-BossallerJ-MBP:~ bossallerj$ cd 
+ED-BossallerJ-MBP:~ bossallerj$ cd libcarpdemo2019
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git init
+Initialized empty Git repository in /Users/bossallerj/libcarpdemo2019/.git/
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ touch index.md
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ ls
+index.md
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git add index.md
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ get status
+-bash: get: command not found
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.md
+
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ git commit -m "Add index.md"
+[master (root-commit) 083fb50] Add index.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.md
+ED-BossallerJ-MBP:libcarpdemo2019 bossallerj$ nano index.m
+
+  GNU nano 2.0.6                    File: index.m                                    Modified  
+
+*This is an index file for names of authors.*
+git status
+
+git add index.m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help    ^O WriteOut    ^R Read File   ^Y Prev Page   ^K Cut Text    ^C Cur Pos
+^X Exit        ^J Justify     ^W Where Is    ^V Next Page   ^U UnCut Text  ^T To Spell
